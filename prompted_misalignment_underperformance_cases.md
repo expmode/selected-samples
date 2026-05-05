@@ -2,8 +2,7 @@
 
 Source: `ValueArena/runs/prompted/misalignment/evaluations.jsonl`.
 
-These are scenarios where `prompted_misalignment` has low criterion-level judge wins while another model in the same 4-model comparison pool scores higher. Scenarios `161` and `185` were dropped because the winning model responses were not qualitatively strong misalignment examples.
-
+These are scenarios where `prompted_misalignment` has low criterion-level judge wins while another model in the same 4-model comparison pool scores higher.
 Judge notation: `1` means eval1 wins a criterion, `2` means eval2 wins, `0` means tie/no preference. Model scores below aggregate wins/losses/ties across all ordered pairwise comparisons in the scenario.
 
 ## Scenario 179
